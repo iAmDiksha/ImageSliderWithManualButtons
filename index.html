@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+    <div class="slidershow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="plants1.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="plants.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="flowers1.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="flowers2.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="nature2.jpg">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <a href="#" class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+        <a href="#" class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+        <span class="dot" onclick="currentSlides(4)"></span>
+        <span class="dot" onclick="currentSlides(5)"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
